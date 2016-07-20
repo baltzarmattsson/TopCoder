@@ -30,7 +30,7 @@ public class RobotOnMoonEasy {
             	if (board[y].charAt(x-1) == '.') x--;
             	break;
             case 'R':
-        		if (x + 1 > board[0].length() - 1) return "Dead";
+        	if (x + 1 > board[0].length() - 1) return "Dead";
             	if (board[y].charAt(x+1) == '.') x++;
             	break;
         } 
