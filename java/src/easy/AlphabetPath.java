@@ -9,9 +9,10 @@ public class AlphabetPath {
             	x = j;
                 y = i;
             }
-		// 65 = 'A', 90 = 'Z'
+	    
+	// 65 = 'A', 90 = 'Z'
         char target;
-		for (int i = 65; i <= 90; i++) {
+	for (int i = 65; i <= 90; i++) {
             	target = (char) i;
             	if (y-1 >= 0 && letterMaze[y-1].charAt(x) == target)
                     y--;
